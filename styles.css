@@ -196,8 +196,9 @@ form > * {
 }
 
 .btn {
+  display: inline-block;
   padding: 15px;
-  margin-bottom: 20px;
+  margin: 15px 30px;
   font-weight: 800;
   font-size: x-large;
   color: #efefef;
@@ -207,14 +208,7 @@ form > * {
   transition: ease 1s;
 }
 
-.btn a {
-  color: #efefef;
-  transition: ease 1s;
-  padding: 15px 20px;
-}
-
-.btn:hover,
-.btn a:hover {
+.btn:hover {
   background-color: #efefef;
   color: #000000;
 }
