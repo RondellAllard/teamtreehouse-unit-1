@@ -176,8 +176,9 @@ ul {
   list-style: none;
 }
 
-.dt-header h3 {
-  margin-bottom: 10px;
+.dt-header {
+  margin: 10px 0;
+  font-weight: 600;
 }
 
 form {
